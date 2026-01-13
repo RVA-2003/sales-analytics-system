@@ -1,0 +1,12 @@
+SALES SUMMARY REPORT
+====================
+
+Total Revenue: ₹3,527,808.00
+
+Sales by Region:
+- South: ₹889,332.00
+- East: ₹467,969.00
+- North: ₹1,321,605.00
+- West: ₹848,902.00
+
+Top Selling Product: LaptopPremium
