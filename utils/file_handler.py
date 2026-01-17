@@ -1,63 +1,32 @@
-def clean_sales_data(file_path):
-    total_records = 0
-    invalid_records = 0
-    valid_records = []
+def read_sales_data(filename):
+    """
+    Reads sales data from file handling encoding issues
 
-    with open(file_path, "r", encoding="utf-8", errors="ignore") as file:
-        lines = file.readlines()
+    Returns: list of raw lines (strings)
+    """
+    encodings = ["utf-8", "latin-1", "cp1252"]
 
-    for line in lines[1:]:  # skip header
-        line = line.strip()
-
-        if not line:
-            continue
-
-        total_records += 1
-        parts = line.split("|")
-
-        if len(parts) != 8:
-            invalid_records += 1
-            continue
-
-        transaction_id, date, product_id, product_name, quantity, price, customer_id, region = parts
-
-        if not transaction_id.startswith("T"):
-            invalid_records += 1
-            continue
-
-        if customer_id.strip() == "" or region.strip() == "":
-            invalid_records += 1
-            continue
-
-        product_name = product_name.replace(",", "")
-        quantity = quantity.replace(",", "")
-        price = price.replace(",", "")
-
+    for encoding in encodings:
         try:
-            quantity = int(quantity)
-            price = float(price)
-        except:
-            invalid_records += 1
+            with open(filename, "r", encoding=encoding) as file:
+                lines = file.readlines()
+
+            # Remove header and empty lines
+            cleaned_lines = []
+            for line in lines[1:]:  # skip header
+                line = line.strip()
+                if line:
+                    cleaned_lines.append(line)
+
+            return cleaned_lines
+
+        except UnicodeDecodeError:
             continue
 
-        if quantity <= 0 or price <= 0:
-            invalid_records += 1
-            continue
+        except FileNotFoundError:
+            print(f"Error: File '{filename}' not found.")
+            return []
 
-        valid_records.append([
-    transaction_id,
-    date,
-    product_id,
-    product_name,
-    quantity,
-    price,
-    customer_id,
-    region
-])
+    print("Error: Unable to read file with supported encodings.")
+    return []
 
-
-    print(f"Total records parsed: {total_records}")
-    print(f"Invalid records removed: {invalid_records}")
-    print(f"Valid records after cleaning: {len(valid_records)}")
-
-    return valid_records

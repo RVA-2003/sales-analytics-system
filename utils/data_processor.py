@@ -1,26 +1,114 @@
-def analyze_sales_data(cleaned_data):
-    total_revenue = 0
-    sales_by_region = {}
-    sales_by_product = {}
+def parse_transactions(raw_lines):
+    """
+    Parses raw lines into clean list of dictionaries
+    """
+    transactions = []
 
-    for record in cleaned_data:
-        transaction_id, date, product_id, product_name, quantity, price, customer_id, region = record
+    for line in raw_lines:
+        parts = line.split("|")
 
-        revenue = quantity * price
-        total_revenue += revenue
+        # Skip incorrect rows
+        if len(parts) != 8:
+            continue
 
-        if region not in sales_by_region:
-            sales_by_region[region] = 0
-        sales_by_region[region] += revenue
+        try:
+            transaction_id = parts[0]
+            date = parts[1]
+            product_id = parts[2]
 
-        if product_name not in sales_by_product:
-            sales_by_product[product_name] = 0
-        sales_by_product[product_name] += revenue
+            # Handle commas in product name
+            product_name = parts[3].replace(",", "")
 
-    top_product = max(sales_by_product, key=sales_by_product.get)
+            # Remove commas from numbers
+            quantity = int(parts[4].replace(",", ""))
+            unit_price = float(parts[5].replace(",", ""))
 
-    return {
-        "total_revenue": total_revenue,
-        "sales_by_region": sales_by_region,
-        "top_product": top_product
+            customer_id = parts[6]
+            region = parts[7]
+
+            transaction = {
+                "TransactionID": transaction_id,
+                "Date": date,
+                "ProductID": product_id,
+                "ProductName": product_name,
+                "Quantity": quantity,
+                "UnitPrice": unit_price,
+                "CustomerID": customer_id,
+                "Region": region
+            }
+
+            transactions.append(transaction)
+
+        except ValueError:
+            continue
+
+    return transactions
+def validate_and_filter(transactions, region=None, min_amount=None, max_amount=None):
+    """
+    Validates transactions and applies optional filters
+    """
+    valid_transactions = []
+    invalid_count = 0
+
+    total_input = len(transactions)
+
+    for tx in transactions:
+        try:
+            if not tx["Region"]:
+               invalid_count += 1
+               continue
+
+            if tx["Quantity"] <= 0:
+                invalid_count += 1
+                continue
+
+            if tx["UnitPrice"] <= 0:
+                invalid_count += 1
+                continue
+
+            if not tx["TransactionID"].startswith("T"):
+                invalid_count += 1
+                continue
+
+            if not tx["ProductID"].startswith("P"):
+                invalid_count += 1
+                continue
+
+            if not tx["CustomerID"].startswith("C"):
+                invalid_count += 1
+                continue
+
+            valid_transactions.append(tx)
+
+        except KeyError:
+            invalid_count += 1
+
+    # Display available regions
+    regions = set(tx["Region"] for tx in valid_transactions)
+    print("Available Regions:", regions)
+
+    filtered = valid_transactions
+
+    if region:
+        filtered = [tx for tx in filtered if tx["Region"] == region]
+
+    amounts = [tx["Quantity"] * tx["UnitPrice"] for tx in filtered]
+    if amounts:
+        print("Transaction Amount Range:", min(amounts), "-", max(amounts))
+
+    if min_amount:
+        filtered = [tx for tx in filtered if tx["Quantity"] * tx["UnitPrice"] >= min_amount]
+
+    if max_amount:
+        filtered = [tx for tx in filtered if tx["Quantity"] * tx["UnitPrice"] <= max_amount]
+
+    summary = {
+        "total_input": total_input,
+        "invalid": invalid_count,
+        "filtered_by_region": len(filtered) if region else 0,
+        "filtered_by_amount": len(filtered) if min_amount or max_amount else 0,
+        "final_count": len(filtered)
     }
+
+    return filtered, invalid_count, summary
+

@@ -1,15 +1,19 @@
-from utils.api_handler import get_sales_summary
+from utils.file_handler import read_sales_data
+from utils.data_processor import parse_transactions, validate_and_filter
 
 file_path = "data/sales_data.txt"
 
-result = get_sales_summary(file_path)
+raw_lines = read_sales_data(file_path)
+transactions = parse_transactions(raw_lines)
 
-print("\n--- SALES ANALYSIS ---")
-print(f"Total Revenue: ₹{result['total_revenue']:,.2f}")
+valid_tx, invalid_count, summary = validate_and_filter(
+    transactions,
+    region=None,
+    min_amount=None,
+    max_amount=None
+)
 
-print("\nSales by Region:")
-for region, revenue in result["sales_by_region"].items():
-    print(f"{region}: ₹{revenue:,.2f}")
+print("Invalid records:", invalid_count)
+print("Summary:", summary)
 
-print(f"\nTop Selling Product: {result['top_product']}")
 
