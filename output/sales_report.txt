@@ -1,0 +1,26 @@
+SALES ANALYTICS REPORT
+==============================
+
+Total Revenue: 3527808.0
+
+Region-wise Sales:
+North: {'total_sales': 1321605.0, 'transaction_count': 21, 'percentage': 37.46}
+South: {'total_sales': 889332.0, 'transaction_count': 13, 'percentage': 25.21}
+West: {'total_sales': 848902.0, 'transaction_count': 19, 'percentage': 24.06}
+East: {'total_sales': 467969.0, 'transaction_count': 17, 'percentage': 13.27}
+
+Top Selling Products:
+('Mouse', 61, 40297.0)
+('Wireless Mouse', 45, 49981.0)
+('Webcam', 35, 128187.0)
+('USB Cable', 33, 7622.0)
+('Monitor', 30, 493759.0)
+
+Peak Sales Day: ('2024-12-02', 882906.0, 5)
+
+Low Performing Products:
+('Laptop', 3, 184329.0)
+('KeyboardMechanical', 5, 13360.0)
+('WebcamHD', 6, 17862.0)
+('Laptop Charger65W', 7, 19922.0)
+('MouseWireless', 8, 6784.0)
