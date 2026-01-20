@@ -89,3 +89,10 @@ def save_enriched_data(enriched_transactions, filename="output/enriched_sales_da
             f.write("|".join(row) + "\n")
 
     print(f"Enriched data saved to {filename}")
+
+def api_summary(api_products):
+    return {
+        "total_products_from_api": len(api_products),
+        "sample_products": api_products[:5]
+    }
+

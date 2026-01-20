@@ -115,3 +115,27 @@ product_mapping = create_product_mapping(api_products)
 enriched_transactions = enrich_sales_data(valid_transactions, product_mapping)
 
 save_enriched_data(enriched_transactions)
+
+from utils.api_handler import (
+    fetch_all_products,
+    create_product_mapping,
+    enrich_sales_data,
+    save_enriched_data,
+    api_summary
+)
+
+print("\n========== API INTEGRATION ==========")
+
+api_products = fetch_all_products()
+summary = api_summary(api_products)
+
+print("API Summary:")
+print("Total Products:", summary["total_products_from_api"])
+print("Sample Products:")
+for product in summary["sample_products"]:
+    print(product)
+
+product_mapping = create_product_mapping(api_products)
+enriched_transactions = enrich_sales_data(valid_transactions, product_mapping)
+
+save_enriched_data(enriched_transactions)
