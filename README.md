@@ -60,7 +60,7 @@ sales-analytics-system/
 
 
 
-1\. Clone the repository
+1. Clone the repository
 
 ```bash
 
@@ -70,7 +70,7 @@ cd sales-analytics-system
 
 
 
-2\. Install dependencies
+2. Install dependencies
 
 pip install -r requirements.txt
 
@@ -142,11 +142,11 @@ i) sales transactions enriched with product information from an external API.
 
 1. No hardcoded file paths are used.
 
-2\. The program runs end-to-end without errors.
+2. The program runs end-to-end without errors.
 
-3\. External API integration uses the requests library.
+3. External API integration uses the requests library.
 
-4\. Repository is public and follows the required folder structure.
+4. Repository is public and follows the required folder structure.
 
 
 
