@@ -139,3 +139,12 @@ product_mapping = create_product_mapping(api_products)
 enriched_transactions = enrich_sales_data(valid_transactions, product_mapping)
 
 save_enriched_data(enriched_transactions)
+
+from utils.report_generator import generate_sales_report
+
+generate_sales_report(
+    valid_transactions,
+    enriched_transactions,
+    output_file="output/sales_report.txt"
+)
+
