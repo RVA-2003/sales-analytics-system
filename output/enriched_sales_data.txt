@@ -1,71 +1,71 @@
-transaction,revenue
-{'TransactionID': 'T018', 'Date': '2024-12-29', 'ProductID': 'P107', 'ProductName': 'USB Cable', 'Quantity': 8, 'UnitPrice': 173.0, 'CustomerID': 'C009', 'Region': 'South'},1384.0
-{'TransactionID': 'T063', 'Date': '2024-12-07', 'ProductID': 'P110', 'ProductName': 'Laptop Charger', 'Quantity': 6, 'UnitPrice': 1916.0, 'CustomerID': 'C022', 'Region': 'East'},11496.0
-{'TransactionID': 'T023', 'Date': '2024-12-09', 'ProductID': 'P109', 'ProductName': 'Wireless Mouse', 'Quantity': 9, 'UnitPrice': 523.0, 'CustomerID': 'C022', 'Region': 'North'},4707.0
-{'TransactionID': 'T059', 'Date': '2024-12-29', 'ProductID': 'P102', 'ProductName': 'MouseWireless', 'Quantity': 4, 'UnitPrice': 1056.0, 'CustomerID': 'C010', 'Region': 'South'},4224.0
-{'TransactionID': 'T035', 'Date': '2024-12-08', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 4, 'UnitPrice': 431.0, 'CustomerID': 'C011', 'Region': 'North'},1724.0
-{'TransactionID': 'T061', 'Date': '2024-12-10', 'ProductID': 'P109', 'ProductName': 'Wireless Mouse', 'Quantity': 2, 'UnitPrice': 775.0, 'CustomerID': 'C009', 'Region': 'North'},1550.0
-{'TransactionID': 'T057', 'Date': '2024-12-15', 'ProductID': 'P101', 'ProductName': 'LaptopPremium', 'Quantity': 10, 'UnitPrice': 81896.0, 'CustomerID': 'C004', 'Region': 'North'},818960.0
-{'TransactionID': 'T034', 'Date': '2024-12-22', 'ProductID': 'P107', 'ProductName': 'USB Cable', 'Quantity': 6, 'UnitPrice': 324.0, 'CustomerID': 'C029', 'Region': 'West'},1944.0
-{'TransactionID': 'T050', 'Date': '2024-12-02', 'ProductID': 'P104', 'ProductName': 'MonitorLED', 'Quantity': 10, 'UnitPrice': 9997.0, 'CustomerID': 'C024', 'Region': 'East'},99970.0
-{'TransactionID': 'T024', 'Date': '2024-12-25', 'ProductID': 'P109', 'ProductName': 'Wireless Mouse', 'Quantity': 5, 'UnitPrice': 1812.0, 'CustomerID': 'C011', 'Region': 'North'},9060.0
-{'TransactionID': 'T004', 'Date': '2024-12-07', 'ProductID': 'P109', 'ProductName': 'Wireless Mouse', 'Quantity': 9, 'UnitPrice': 1359.0, 'CustomerID': 'C008', 'Region': 'West'},12231.0
-{'TransactionID': 'T068', 'Date': '2024-12-02', 'ProductID': 'P109', 'ProductName': 'Wireless Mouse', 'Quantity': 6, 'UnitPrice': 1692.0, 'CustomerID': 'C018', 'Region': 'South'},10152.0
-{'TransactionID': 'T066', 'Date': '2024-12-06', 'ProductID': 'P105', 'ProductName': 'Webcam', 'Quantity': 8, 'UnitPrice': 4259.0, 'CustomerID': 'C023', 'Region': 'West'},34072.0
-{'TransactionID': 'T064', 'Date': '2024-12-16', 'ProductID': 'P109', 'ProductName': 'Wireless Mouse', 'Quantity': 5, 'UnitPrice': 604.0, 'CustomerID': 'C003', 'Region': 'West'},3020.0
-{'TransactionID': 'T045', 'Date': '2024-12-26', 'ProductID': 'P108', 'ProductName': 'External Hard Drive', 'Quantity': 9, 'UnitPrice': 3802.0, 'CustomerID': 'C002', 'Region': 'North'},34218.0
-{'TransactionID': 'T015', 'Date': '2024-12-30', 'ProductID': 'P105', 'ProductName': 'Webcam', 'Quantity': 9, 'UnitPrice': 2899.0, 'CustomerID': 'C022', 'Region': 'East'},26091.0
-{'TransactionID': 'T055', 'Date': '2024-12-07', 'ProductID': 'P105', 'ProductName': 'WebcamHD', 'Quantity': 6, 'UnitPrice': 2977.0, 'CustomerID': 'C009', 'Region': 'West'},17862.0
-{'TransactionID': 'T002', 'Date': '2024-12-22', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 9, 'UnitPrice': 478.0, 'CustomerID': 'C019', 'Region': 'West'},4302.0
-{'TransactionID': 'T051', 'Date': '2024-12-02', 'ProductID': 'P101', 'ProductName': 'LaptopPremium', 'Quantity': 10, 'UnitPrice': 76246.0, 'CustomerID': 'C017', 'Region': 'South'},762460.0
-{'TransactionID': 'T005', 'Date': '2024-12-09', 'ProductID': 'P110', 'ProductName': 'Laptop Charger', 'Quantity': 1, 'UnitPrice': 3054.0, 'CustomerID': 'C026', 'Region': 'South'},3054.0
-{'TransactionID': 'T007', 'Date': '2024-12-03', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 7, 'UnitPrice': 498.0, 'CustomerID': 'C012', 'Region': 'East'},3486.0
-{'TransactionID': 'T010', 'Date': '2024-12-07', 'ProductID': 'P110', 'ProductName': 'Laptop Charger', 'Quantity': 2, 'UnitPrice': 1593.0, 'CustomerID': 'C022', 'Region': 'South'},3186.0
-{'TransactionID': 'T032', 'Date': '2024-12-22', 'ProductID': 'P103', 'ProductName': 'Keyboard', 'Quantity': 8, 'UnitPrice': 1476.0, 'CustomerID': 'C009', 'Region': 'West'},11808.0
-{'TransactionID': 'T008', 'Date': '2024-12-09', 'ProductID': 'P110', 'ProductName': 'Laptop Charger', 'Quantity': 1, 'UnitPrice': 2994.0, 'CustomerID': 'C015', 'Region': 'North'},2994.0
-{'TransactionID': 'T060', 'Date': '2024-12-27', 'ProductID': 'P108', 'ProductName': 'External Hard Drive1TB', 'Quantity': 9, 'UnitPrice': 8763.0, 'CustomerID': 'C010', 'Region': 'North'},78867.0
-{'TransactionID': 'T062', 'Date': '2024-12-24', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 9, 'UnitPrice': 618.0, 'CustomerID': 'C009', 'Region': 'East'},5562.0
-{'TransactionID': 'T003', 'Date': '2024-12-01', 'ProductID': 'P101', 'ProductName': 'Laptop', 'Quantity': 2, 'UnitPrice': 59328.0, 'CustomerID': 'C008', 'Region': 'North'},118656.0
-{'TransactionID': 'T022', 'Date': '2024-12-20', 'ProductID': 'P107', 'ProductName': 'USB Cable', 'Quantity': 2, 'UnitPrice': 297.0, 'CustomerID': 'C013', 'Region': 'West'},594.0
-{'TransactionID': 'T046', 'Date': '2024-12-30', 'ProductID': 'P102', 'ProductName': 'MouseWireless', 'Quantity': 4, 'UnitPrice': 640.0, 'CustomerID': 'C014', 'Region': 'West'},2560.0
-{'TransactionID': 'T049', 'Date': '2024-12-22', 'ProductID': 'P109', 'ProductName': 'Wireless MouseGaming', 'Quantity': 8, 'UnitPrice': 817.0, 'CustomerID': 'C007', 'Region': 'East'},6536.0
-{'TransactionID': 'T006', 'Date': '2024-12-11', 'ProductID': 'P107', 'ProductName': 'USB Cable', 'Quantity': 5, 'UnitPrice': 179.0, 'CustomerID': 'C007', 'Region': 'East'},895.0
-{'TransactionID': 'T011', 'Date': '2024-12-03', 'ProductID': 'P105', 'ProductName': 'Webcam', 'Quantity': 4, 'UnitPrice': 2413.0, 'CustomerID': 'C013', 'Region': 'East'},9652.0
-{'TransactionID': 'T031', 'Date': '2024-12-24', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 8, 'UnitPrice': 441.0, 'CustomerID': 'C025', 'Region': 'South'},3528.0
-{'TransactionID': 'T033', 'Date': '2024-12-30', 'ProductID': 'P104', 'ProductName': 'Monitor', 'Quantity': 9, 'UnitPrice': 14591.0, 'CustomerID': 'C023', 'Region': 'East'},131319.0
-{'TransactionID': 'T058', 'Date': '2024-12-07', 'ProductID': 'P109', 'ProductName': 'Wireless MouseGaming', 'Quantity': 9, 'UnitPrice': 1043.0, 'CustomerID': 'C005', 'Region': 'East'},9387.0
-{'TransactionID': 'T029', 'Date': '2024-12-11', 'ProductID': 'P110', 'ProductName': 'Laptop Charger', 'Quantity': 8, 'UnitPrice': 1539.0, 'CustomerID': 'C004', 'Region': 'East'},12312.0
-{'TransactionID': 'T030', 'Date': '2024-12-08', 'ProductID': 'P105', 'ProductName': 'Webcam', 'Quantity': 1, 'UnitPrice': 2986.0, 'CustomerID': 'C029', 'Region': 'North'},2986.0
-{'TransactionID': 'T021', 'Date': '2024-12-25', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 1, 'UnitPrice': 524.0, 'CustomerID': 'C005', 'Region': 'South'},524.0
-{'TransactionID': 'T070', 'Date': '2024-12-07', 'ProductID': 'P106', 'ProductName': 'Headphones', 'Quantity': 4, 'UnitPrice': 6463.0, 'CustomerID': 'C004', 'Region': 'East'},25852.0
-{'TransactionID': 'T028', 'Date': '2024-12-25', 'ProductID': 'P106', 'ProductName': 'Headphones', 'Quantity': 3, 'UnitPrice': 5418.0, 'CustomerID': 'C025', 'Region': 'North'},16254.0
-{'TransactionID': 'T014', 'Date': '2024-12-24', 'ProductID': 'P109', 'ProductName': 'Wireless Mouse', 'Quantity': 4, 'UnitPrice': 834.0, 'CustomerID': 'C015', 'Region': 'West'},3336.0
-{'TransactionID': 'T019', 'Date': '2024-12-24', 'ProductID': 'P104', 'ProductName': 'Monitor', 'Quantity': 9, 'UnitPrice': 16609.0, 'CustomerID': 'C024', 'Region': 'West'},149481.0
-{'TransactionID': 'T054', 'Date': '2024-12-03', 'ProductID': 'P110', 'ProductName': 'Laptop Charger65W', 'Quantity': 7, 'UnitPrice': 2846.0, 'CustomerID': 'C019', 'Region': 'East'},19922.0
-{'TransactionID': 'T001', 'Date': '2024-12-01', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 5, 'UnitPrice': 801.0, 'CustomerID': 'C008', 'Region': 'South'},4005.0
-{'TransactionID': 'T036', 'Date': '2024-12-18', 'ProductID': 'P110', 'ProductName': 'Laptop Charger', 'Quantity': 4, 'UnitPrice': 2705.0, 'CustomerID': 'C008', 'Region': 'North'},10820.0
-{'TransactionID': 'T020', 'Date': '2024-12-13', 'ProductID': 'P110', 'ProductName': 'Laptop Charger', 'Quantity': 6, 'UnitPrice': 1949.0, 'CustomerID': 'C005', 'Region': 'West'},11694.0
-{'TransactionID': 'T037', 'Date': '2024-12-23', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 1, 'UnitPrice': 768.0, 'CustomerID': 'C003', 'Region': 'North'},768.0
-{'TransactionID': 'T012', 'Date': '2024-12-21', 'ProductID': 'P108', 'ProductName': 'External Hard Drive', 'Quantity': 6, 'UnitPrice': 4332.0, 'CustomerID': 'C012', 'Region': 'East'},25992.0
-{'TransactionID': 'T048', 'Date': '2024-12-13', 'ProductID': 'P101', 'ProductName': 'LaptopPremium', 'Quantity': 5, 'UnitPrice': 74819.0, 'CustomerID': 'C010', 'Region': 'West'},374095.0
-{'TransactionID': 'T044', 'Date': '2024-12-09', 'ProductID': 'P103', 'ProductName': 'Keyboard', 'Quantity': 8, 'UnitPrice': 1823.0, 'CustomerID': 'C028', 'Region': 'North'},14584.0
-{'TransactionID': 'T025', 'Date': '2024-12-14', 'ProductID': 'P105', 'ProductName': 'Webcam', 'Quantity': 3, 'UnitPrice': 3858.0, 'CustomerID': 'C001', 'Region': 'East'},11574.0
-{'TransactionID': 'T027', 'Date': '2024-12-27', 'ProductID': 'P105', 'ProductName': 'Webcam', 'Quantity': 9, 'UnitPrice': 4494.0, 'CustomerID': 'C007', 'Region': 'South'},40446.0
-{'TransactionID': 'T013', 'Date': '2024-12-22', 'ProductID': 'P104', 'ProductName': 'Monitor', 'Quantity': 5, 'UnitPrice': 10339.0, 'CustomerID': 'C020', 'Region': 'South'},51695.0
-{'TransactionID': 'T017', 'Date': '2024-12-07', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 10, 'UnitPrice': 944.0, 'CustomerID': 'C007', 'Region': 'West'},9440.0
-{'TransactionID': 'T038', 'Date': '2024-12-03', 'ProductID': 'P106', 'ProductName': 'Headphones', 'Quantity': 9, 'UnitPrice': 2949.0, 'CustomerID': 'C009', 'Region': 'West'},26541.0
-{'TransactionID': 'T052', 'Date': '2024-12-17', 'ProductID': 'P101', 'ProductName': 'LaptopPremium', 'Quantity': 2, 'UnitPrice': 57178.0, 'CustomerID': 'C003', 'Region': 'North'},114356.0
-{'TransactionID': 'T042', 'Date': '2024-12-02', 'ProductID': 'P102', 'ProductName': 'Mouse', 'Quantity': 7, 'UnitPrice': 994.0, 'CustomerID': 'C026', 'Region': 'North'},6958.0
-{'TransactionID': 'T053', 'Date': '2024-12-13', 'ProductID': 'P104', 'ProductName': 'MonitorLED', 'Quantity': 2, 'UnitPrice': 16067.0, 'CustomerID': 'C019', 'Region': 'North'},32134.0
-{'TransactionID': 'T040', 'Date': '2024-12-07', 'ProductID': 'P107', 'ProductName': 'USB Cable', 'Quantity': 2, 'UnitPrice': 149.0, 'CustomerID': 'C022', 'Region': 'West'},298.0
-{'TransactionID': 'T065', 'Date': '2024-12-02', 'ProductID': 'P105', 'ProductName': 'Webcam', 'Quantity': 1, 'UnitPrice': 3366.0, 'CustomerID': 'C025', 'Region': 'South'},3366.0
-{'TransactionID': 'T039', 'Date': '2024-12-18', 'ProductID': 'P104', 'ProductName': 'Monitor', 'Quantity': 3, 'UnitPrice': 23488.0, 'CustomerID': 'C008', 'Region': 'West'},70464.0
-{'TransactionID': 'T016', 'Date': '2024-12-08', 'ProductID': 'P101', 'ProductName': 'Laptop', 'Quantity': 1, 'UnitPrice': 65673.0, 'CustomerID': 'C013', 'Region': 'East'},65673.0
-{'TransactionID': 'T041', 'Date': '2024-12-14', 'ProductID': 'P106', 'ProductName': 'Headphones', 'Quantity': 7, 'UnitPrice': 4825.0, 'CustomerID': 'C028', 'Region': 'North'},33775.0
-{'TransactionID': 'T043', 'Date': '2024-12-07', 'ProductID': 'P104', 'ProductName': 'Monitor', 'Quantity': 4, 'UnitPrice': 22700.0, 'CustomerID': 'C005', 'Region': 'West'},90800.0
-{'TransactionID': 'T009', 'Date': '2024-12-03', 'ProductID': 'P107', 'ProductName': 'USB Cable', 'Quantity': 9, 'UnitPrice': 250.0, 'CustomerID': 'C027', 'Region': 'East'},2250.0
-{'TransactionID': 'T056', 'Date': '2024-12-22', 'ProductID': 'P103', 'ProductName': 'KeyboardMechanical', 'Quantity': 5, 'UnitPrice': 2672.0, 'CustomerID': 'C011', 'Region': 'North'},13360.0
-{'TransactionID': 'T047', 'Date': '2024-12-07', 'ProductID': 'P108', 'ProductName': 'External Hard Drive1TB', 'Quantity': 7, 'UnitPrice': 3480.0, 'CustomerID': 'C006', 'Region': 'West'},24360.0
-{'TransactionID': 'T026', 'Date': '2024-12-25', 'ProductID': 'P109', 'ProductName': 'Wireless Mouse', 'Quantity': 3, 'UnitPrice': 1539.0, 'CustomerID': 'C030', 'Region': 'North'},4617.0
-{'TransactionID': 'T069', 'Date': '2024-12-05', 'ProductID': 'P107', 'ProductName': 'USB Cable', 'Quantity': 1, 'UnitPrice': 257.0, 'CustomerID': 'C012', 'Region': 'North'},257.0
-{'TransactionID': 'T067', 'Date': '2024-12-01', 'ProductID': 'P109', 'ProductName': 'Wireless Mouse', 'Quantity': 2, 'UnitPrice': 654.0, 'CustomerID': 'C029', 'Region': 'South'},1308.0
+TransactionID|Date|ProductID|ProductName|Quantity|UnitPrice|CustomerID|Region|API_Category|API_Brand|API_Rating|API_Match
+T018|2024-12-29|P107|USB Cable|8|173.0|C009|South|None|None|None|False
+T063|2024-12-07|P110|Laptop Charger|6|1916.0|C022|East|None|None|None|False
+T023|2024-12-09|P109|Wireless Mouse|9|523.0|C022|North|None|None|None|False
+T059|2024-12-29|P102|MouseWireless|4|1056.0|C010|South|None|None|None|False
+T035|2024-12-08|P102|Mouse|4|431.0|C011|North|None|None|None|False
+T061|2024-12-10|P109|Wireless Mouse|2|775.0|C009|North|None|None|None|False
+T057|2024-12-15|P101|LaptopPremium|10|81896.0|C004|North|None|None|None|False
+T034|2024-12-22|P107|USB Cable|6|324.0|C029|West|None|None|None|False
+T050|2024-12-02|P104|MonitorLED|10|9997.0|C024|East|None|None|None|False
+T024|2024-12-25|P109|Wireless Mouse|5|1812.0|C011|North|None|None|None|False
+T004|2024-12-07|P109|Wireless Mouse|9|1359.0|C008|West|None|None|None|False
+T068|2024-12-02|P109|Wireless Mouse|6|1692.0|C018|South|None|None|None|False
+T066|2024-12-06|P105|Webcam|8|4259.0|C023|West|None|None|None|False
+T064|2024-12-16|P109|Wireless Mouse|5|604.0|C003|West|None|None|None|False
+T045|2024-12-26|P108|External Hard Drive|9|3802.0|C002|North|None|None|None|False
+T015|2024-12-30|P105|Webcam|9|2899.0|C022|East|None|None|None|False
+T055|2024-12-07|P105|WebcamHD|6|2977.0|C009|West|None|None|None|False
+T002|2024-12-22|P102|Mouse|9|478.0|C019|West|None|None|None|False
+T051|2024-12-02|P101|LaptopPremium|10|76246.0|C017|South|None|None|None|False
+T005|2024-12-09|P110|Laptop Charger|1|3054.0|C026|South|None|None|None|False
+T007|2024-12-03|P102|Mouse|7|498.0|C012|East|None|None|None|False
+T010|2024-12-07|P110|Laptop Charger|2|1593.0|C022|South|None|None|None|False
+T032|2024-12-22|P103|Keyboard|8|1476.0|C009|West|None|None|None|False
+T008|2024-12-09|P110|Laptop Charger|1|2994.0|C015|North|None|None|None|False
+T060|2024-12-27|P108|External Hard Drive1TB|9|8763.0|C010|North|None|None|None|False
+T062|2024-12-24|P102|Mouse|9|618.0|C009|East|None|None|None|False
+T003|2024-12-01|P101|Laptop|2|59328.0|C008|North|None|None|None|False
+T022|2024-12-20|P107|USB Cable|2|297.0|C013|West|None|None|None|False
+T046|2024-12-30|P102|MouseWireless|4|640.0|C014|West|None|None|None|False
+T049|2024-12-22|P109|Wireless MouseGaming|8|817.0|C007|East|None|None|None|False
+T006|2024-12-11|P107|USB Cable|5|179.0|C007|East|None|None|None|False
+T011|2024-12-03|P105|Webcam|4|2413.0|C013|East|None|None|None|False
+T031|2024-12-24|P102|Mouse|8|441.0|C025|South|None|None|None|False
+T033|2024-12-30|P104|Monitor|9|14591.0|C023|East|None|None|None|False
+T058|2024-12-07|P109|Wireless MouseGaming|9|1043.0|C005|East|None|None|None|False
+T029|2024-12-11|P110|Laptop Charger|8|1539.0|C004|East|None|None|None|False
+T030|2024-12-08|P105|Webcam|1|2986.0|C029|North|None|None|None|False
+T021|2024-12-25|P102|Mouse|1|524.0|C005|South|None|None|None|False
+T070|2024-12-07|P106|Headphones|4|6463.0|C004|East|None|None|None|False
+T028|2024-12-25|P106|Headphones|3|5418.0|C025|North|None|None|None|False
+T014|2024-12-24|P109|Wireless Mouse|4|834.0|C015|West|None|None|None|False
+T019|2024-12-24|P104|Monitor|9|16609.0|C024|West|None|None|None|False
+T054|2024-12-03|P110|Laptop Charger65W|7|2846.0|C019|East|None|None|None|False
+T001|2024-12-01|P102|Mouse|5|801.0|C008|South|None|None|None|False
+T036|2024-12-18|P110|Laptop Charger|4|2705.0|C008|North|None|None|None|False
+T020|2024-12-13|P110|Laptop Charger|6|1949.0|C005|West|None|None|None|False
+T037|2024-12-23|P102|Mouse|1|768.0|C003|North|None|None|None|False
+T012|2024-12-21|P108|External Hard Drive|6|4332.0|C012|East|None|None|None|False
+T048|2024-12-13|P101|LaptopPremium|5|74819.0|C010|West|None|None|None|False
+T044|2024-12-09|P103|Keyboard|8|1823.0|C028|North|None|None|None|False
+T025|2024-12-14|P105|Webcam|3|3858.0|C001|East|None|None|None|False
+T027|2024-12-27|P105|Webcam|9|4494.0|C007|South|None|None|None|False
+T013|2024-12-22|P104|Monitor|5|10339.0|C020|South|None|None|None|False
+T017|2024-12-07|P102|Mouse|10|944.0|C007|West|None|None|None|False
+T038|2024-12-03|P106|Headphones|9|2949.0|C009|West|None|None|None|False
+T052|2024-12-17|P101|LaptopPremium|2|57178.0|C003|North|None|None|None|False
+T042|2024-12-02|P102|Mouse|7|994.0|C026|North|None|None|None|False
+T053|2024-12-13|P104|MonitorLED|2|16067.0|C019|North|None|None|None|False
+T040|2024-12-07|P107|USB Cable|2|149.0|C022|West|None|None|None|False
+T065|2024-12-02|P105|Webcam|1|3366.0|C025|South|None|None|None|False
+T039|2024-12-18|P104|Monitor|3|23488.0|C008|West|None|None|None|False
+T016|2024-12-08|P101|Laptop|1|65673.0|C013|East|None|None|None|False
+T041|2024-12-14|P106|Headphones|7|4825.0|C028|North|None|None|None|False
+T043|2024-12-07|P104|Monitor|4|22700.0|C005|West|None|None|None|False
+T009|2024-12-03|P107|USB Cable|9|250.0|C027|East|None|None|None|False
+T056|2024-12-22|P103|KeyboardMechanical|5|2672.0|C011|North|None|None|None|False
+T047|2024-12-07|P108|External Hard Drive1TB|7|3480.0|C006|West|None|None|None|False
+T026|2024-12-25|P109|Wireless Mouse|3|1539.0|C030|North|None|None|None|False
+T069|2024-12-05|P107|USB Cable|1|257.0|C012|North|None|None|None|False
+T067|2024-12-01|P109|Wireless Mouse|2|654.0|C029|South|None|None|None|False
